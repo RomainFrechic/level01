@@ -1,0 +1,45 @@
+#entete{
+	border:2px black solid;
+	text-align: center;
+	height: 450px ;
+
+}
+
+
+#nav {
+	float: right;
+	margin: 0 ;
+	padding: 0;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+	color:black;
+	border:2px black solid;
+}
+
+.logo1{
+	float: left;
+
+
+}
+
+.logo2{
+	text-align: center;
+	padding: 50px;
+
+
+
+}
+
+.bloc{
+
+	border: 2px black solid;
+	float: right;
+}
+
+.section{
+
+	display: inline-reverse;
+	list-style: none;
+}
