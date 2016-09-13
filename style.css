@@ -5,6 +5,16 @@
 
 }
 
+.pmenu{
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: column;
+	justify-content: space-around;
+
+
+}
 
 #nav {
 	float: right;
@@ -39,33 +49,46 @@
 }
 
 .container {
-background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center; 
-  
+
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+
+	/*line-height: 150px;*/
+	color: black;
+	/*nt-weight: bold;*/
+	font-size: 18px;
+	text-align:justify;
+
+
 }
 
 .items{
 
-padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	/*display: -webkit-box;*/
+	/*display: -moz-box;*/
+	/*display: -ms-flexbox;*/
+	/*display: -webkit-flex;*/
+	display: flex;
+
+	/*-webkit-flex-flow: row wrap;*/
+	justify-content: space-around;
+	text-align: center;
+	height: 800px;
+}
+.p{
+	width: 500px;
+	margin: 3px;
+
+}
+.aboutus{
+
+	border: 2px black solid;
+
+
 }
