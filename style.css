@@ -56,9 +56,6 @@
 	margin-top: 10px;
 
 	/*line-height: 150px;*/
-	color: black;
-	/*nt-weight: bold;*/
-	font-size: 18px;
 	text-align:justify;
 
 
@@ -86,9 +83,64 @@
 	margin: 3px;
 
 }
-.aboutus{
 
+.bouton a{
+	display:block;
+	width:auto;
+	margin:auto
+	padding:100px;
+	/*line-height:50px;*/
+	/*vertical-align:middle;*/
+	color:black;
+	text-decoration:none;
+	text-align:center;
+}
+.bouton  {
+	border:1px outset black;
+	box-shadow: 2px 2px 2px;
+
+}
+
+
+.aboutus{
+	
 	border: 2px black solid;
 
 
+}
+.pus{
+	text-align:justify;
+	width: 500px;
+	margin-left: 200px;
+
+}
+.imgus{
+	
+	float:right;
+	margin: 3px;
+	width: 500px;
+	padding:100px;
+}
+
+.contactus{
+	border: 3px black solid;
+
+}
+
+.pcontactus{
+
+	text-align:justify;
+	width: 500px;
+	margin-left: 200px;
+}
+.span{
+	font-style: x-large;
+}
+
+.map{
+float:right;
+	margin: 3px;
+	width: 500px;
+	padding:100px;
+	
 }
